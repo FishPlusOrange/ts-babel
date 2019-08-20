@@ -25,6 +25,8 @@ tsc for type checking
 
 这样就不需要也没必要同时配置两个编译器，使得整个构建系统更加统一、更加可维护。
 
+> 以上基于 Babel 7+，因为 Babel 7 之前并不支持 TS。
+
 ## Tips for Using Babel
 
 Babel 编译 TypeScript 存在一些小缺陷，Babel 编译器不支持个别语法，比如：
@@ -44,5 +46,3 @@ Babel 编译 TypeScript 存在一些小缺陷，Babel 编译器不支持个别�
 - 建议不要混用 TypeScript 和 Babel 进行编译
 
 - 个人更喜欢使用 TypeScript 作为编译器，毕竟 Babel 并不支持个别 TypeScript 语法
-
-> 以上基于 Babel 7+，因为 Babel 7 之前并不支持 TS。
