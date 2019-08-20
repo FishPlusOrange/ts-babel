@@ -1,8 +1,9 @@
 {
   "name": "ts-babel",
   "version": "0.0.1",
-  "description": "",
-  "main": "src/index.ts",
+  "author": "FishPlusOrange",
+  "license": "MIT",
+  "description": "Compile TypeScript with Babel",
   "scripts": {
     "build": "babel src --out-dir dist --extensions \".ts,.tsx\""
   },
@@ -10,16 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/FishPlusOrange/ts-babel.git"
   },
-  "keywords": [
-    "TypeScript",
-    "Babel"
-  ],
-  "author": "FishPlusOrange",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/FishPlusOrange/ts-babel/issues"
   },
   "homepage": "https://github.com/FishPlusOrange/ts-babel#readme",
+  "keywords": [
+    "TypeScript",
+    "Babel"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
