@@ -8,7 +8,7 @@ TypeScript 优势是为我们提供了**静态类型检查**功能，而 Babel �
 
 ## With Babel 7+
 
-不使用 TypeScript 进行编译（比如使用 Webpack 结合 `ts-loader` 或 `awesome-typescript-loader` 对 TS 进行编译），完全基于 Babel 生态写 TS 大致思路可以是：
+不使用 TypeScript 进行编译（比如使用 Webpack 搭配 `ts-loader` 或 `awesome-typescript-loader` 对 TS 进行编译），完全基于 Babel 生态写 TS 大致思路可以是：
 
 ```text
 TS => Babel => JS
@@ -29,7 +29,7 @@ tsc for type checking
 
 ## Tips for Using Babel
 
-Babel 编译 TypeScript 存在一些小缺陷，Babel 编译器不支持个别语法，比如：
+Babel 编译 TS 存在一些小缺陷，其不支持个别 TS 语法，比如：
 
 - 命名空间
 
@@ -45,4 +45,4 @@ Babel 编译 TypeScript 存在一些小缺陷，Babel 编译器不支持个别�
 
 - 建议不要混用 TypeScript 和 Babel 进行编译
 
-- 个人更喜欢使用 TypeScript 作为编译器，毕竟 Babel 并不支持个别 TypeScript 语法
+- 个人更喜欢使用 TypeScript 作为编译器，毕竟 Babel 目前还不支持个别 TS 语法

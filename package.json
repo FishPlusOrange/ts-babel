@@ -7,14 +7,6 @@
   "scripts": {
     "build": "babel src --out-dir dist --extensions \".ts,.tsx\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FishPlusOrange/ts-babel.git"
-  },
-  "bugs": {
-    "url": "https://github.com/FishPlusOrange/ts-babel/issues"
-  },
-  "homepage": "https://github.com/FishPlusOrange/ts-babel#readme",
   "keywords": [
     "TypeScript",
     "Babel"
@@ -26,5 +18,13 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-typescript": "^7.9.0"
+  },
+  "homepage": "https://github.com/FishPlusOrange/ts-babel#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FishPlusOrange/ts-babel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FishPlusOrange/ts-babel/issues"
   }
 }
